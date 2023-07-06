@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffe Bintaro </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<h3 style="color: white;">KOPI BINTARO</h3>
+			<ul>
+				<li><a href="#banner">Home</a></li>
+				<li><a href="#perkenalan">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="profile"></div>
+		<div class="content">
+			<h1>Coffe Shop Bintaro</h1>
+			<p>Jl Emerald Boulevard, Bintaro</p>
+		</div>
+	</div>
+
+<!-- Perkenalan -->
+
+<section id="perkenalan">
+	<div class="title-text">
+	<h1>Karena Separuh Hatiku Ada Di Kopi Bintaro</h1>
+	<h2>Bintaro Coffe</h2>
+	<p>Disajikan dengan biji kopi pilihan dan bersama dengan orang pilihan.</p>
+	</div>
+
+<!-- skill -->
+
+	<div class="skill-box">
+		<div class="skill">
+			<h1>Review Customer</h1>
+			<div class="skill-desc">
+				<div class="skill-icon">
+					<i class="fa fa-circle"></i>
+				</div>
+				<div class="skill-text">
+					<p>Disini di kopi bintaro dimana aku menemukan mu seorang malaikat ku</p>
+				</div>
+			</div>
+			<div class="skill-desc">
+				<div class="skill-icon">
+					<i class="fa fa-circle"></i>
+				</div>
+				<div class="skill-text">
+					<p>Jalan - jalan sore paling enak ke kopi bintaro!!</p>
+				</div>
+			</div>
+			<div class="skill-desc">
+				<div class="skill-icon">
+					<i class="fa fa-circle"></i>
+				</div>
+				<div class="skill-text">
+					<p>Enakk Kopinyaa, Bagus Pemandanganyaa, Kerenn</p>
+				</div>
+			</div>
+						
+		</div>
+		<div class="skill-bar">
+			<div class="bar">
+				<div class="info">
+					<span>RASA KOPI</span>
+				</div>
+				<div class="progress-line MSWORD"><span></span></div>
+			</div>
+			<div class="bar">
+				<div class="info">
+					<span>TEMPAT</span>
+				</div>
+				<div class="progress-line MSEXEL"><span></span></div>
+			</div>
+			<div class="bar">
+				<div class="info">
+					<span>PEMANDANGAN</span>
+				</div>
+				<div class="progress-line MYSQL"><span></span></div>
+			</div>
+		</div>		
+	</div>
+</section>
+
+<!-- Experience -->
+
+<section id="experience">
+	<div class="title-text">
+		<h1>Addresses</h1>
+		<div class="title-desc">
+			<p>Emerald residence, bintaro Jl. Titihan, Parigi, <br> Kec. Pd. Aren, Kota Tangerang Selatan <br> Banten 15224</p>
+		</div>
+	</div>
+	<div class="title-text">
+		<h1>Available At</h1>
+		<div class="service-box">
+			<div class="single-service">
+				<h2>Emerald Bintaro</h2>
+					<h3>Coffe Bintaro</h3>
+				<p>Jl. Emerald Residence, Bintaro</p>
+				
+			</div>
+			<div class="single-service">
+				<h2>Comming Soon</h2>
+			</div>
+			<div class="single-service">
+				<h2>Comming Soon</h2>
+			</div>
+			<div class="single-service">
+				<h2>Comming Soon</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Contact -->
+
+<section id="contact">
+	<div class="kontak">
+		<h1>Contact me</h1>
+	</div>
+	<div class="contact-info">
+		<div class="social-links">
+			<i class="social-icon fa fa-instagram"></i>
+			<p>coffe_bintaro</p>
+		</div>
+		<div class="social-links">
+			<i class="social-icon fa fa-envelope"></i>
+			<p>bintaro.coffe@gmail.com</p>
+		</div>
+		<div class="social-links">
+			<i class="social-icon fa fa-facebook"></i>
+			<p>Kopi Bintaro</p>
+		</div>
+		<div class="social-links">
+			<i class="social-icon fa fa-whatsapp"></i>
+			<p>0881122334455</p>
+		</div>
+	</div>
+</section>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "691da4b6-568b-4602-b5dd-ebbd88ba6808", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "a316dd04-3cbd-40c2-8c2b-8c33d6d3a13a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#009688" fill-opacity="0.7" d="M0,64L30,90.7C60,117,120,171,180,181.3C240,192,300,160,360,138.7C420,117,480,107,540,133.3C600,160,660,224,720,256C780,288,840,288,900,256C960,224,1020,160,1080,154.7C1140,149,1200,203,1260,208C1320,213,1380,171,1410,149.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+</body>
+</html>
